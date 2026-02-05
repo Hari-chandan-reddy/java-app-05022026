@@ -6,6 +6,9 @@ public class MainProgram {
 
 		Division division = new Division();
 		division.divide(new int[] {10,2,20,5});
+		//division.divide(new int[] {10,0,20,5});
+		//division.divide(new int[] {10,2,20,0});
+		//division.divide(new int[] {10});
 		
 		System.out.println("main ended.");
 
